@@ -7,6 +7,7 @@ import { LangingPageComponent } from './langing-page/langing-page.component';
 import { LandingPageHeaderComponent } from './landing-page-header/landing-page-header.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SignupComponent } from './signup/signup.component';
     LangingPageComponent,
     LandingPageHeaderComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
